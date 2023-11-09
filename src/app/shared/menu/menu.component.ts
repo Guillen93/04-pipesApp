@@ -28,7 +28,11 @@ export class MenuComponent implements OnInit {
           
         ]
         
-      } 
+      } ,
+      {
+        label: 'letras',
+        icon:'pi pi-box', routerLink:['letras']
+      }
     ];
 
 

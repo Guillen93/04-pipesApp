@@ -9,6 +9,8 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
 import { VuelaPipe } from './pipes/vuela.pipe';
 import { ColorPipe } from './pipes/color.pipe';
 import { OrdenarPipe } from './pipes/ordenar.pipe';
+import { LetrasPipe } from './pipes/letras.pipe';
+import { LetrasComponent } from './pages/letras/letras.component';
 
 
 
@@ -21,7 +23,9 @@ import { OrdenarPipe } from './pipes/ordenar.pipe';
     MayusculasPipe,
     VuelaPipe,
     ColorPipe,
-    OrdenarPipe
+    OrdenarPipe,
+    LetrasPipe,
+    LetrasComponent
   ],
   imports: [
     CommonModule,
